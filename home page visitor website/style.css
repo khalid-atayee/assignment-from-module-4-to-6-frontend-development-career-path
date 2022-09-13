@@ -1,0 +1,92 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* @font-face {
+    font-family:demo;
+    src: url('images/demo.ttf');
+} */
+.hero{
+   
+    background-image: url('images/afghanistan.jpg');
+    background-size: cover;
+    padding: 10em;
+    height: 296px;
+}
+.hero-text{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.hero-color{
+    color: #7689AD;
+
+    /* 74, 108, 119 */
+    background-color: rgba(48, 84, 50, 0.7);
+    padding:.5em;
+    border-radius: 6px;
+    text-shadow: 0px 0px .2px #7689AD ;
+}
+.hero-title{
+    font-size: 3rem;
+}
+.hero-description{
+    font-size: 2rem;
+}
+.activity{
+    padding: 3em;
+    background-color: #D1DEF1;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Happy Monkey', sans-serif;
+
+
+}
+.activity-container{
+    padding: 1em;
+    width: 250px;
+}
+.activity-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.activity-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.guide{
+    width: 600px;
+    height: 270px;
+    padding: 1em;
+    background-color: #D1DEF1;
+    margin: 3em auto;
+    display: flex;
+    border-radius: 15px;
+    border-bottom: 5px solid #7689AD;
+
+}
+.guide-image{
+    width: 240px;
+    height: 240px;
+    padding: 1em;
+    align-items: center;
+}
+.guide-details{
+    font-family: 'Orbitron', sans-serif;
+    padding: 0 1em;
+    margin-top: -2.1em;
+}
+.guide-description{
+    font-family: 'Happy Monkey', sans-serif;
+    font-size: 1.3rem;
+
+
+}
